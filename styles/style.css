@@ -101,7 +101,7 @@ main {
   1px 0 var(--background-color), 0 -1px var(--background-color);
 }
 
-@supports (-webkit-text-stroke: 1px var(--background-color)) {
+@supports (-webkit-text-stroke: 1px black) {
   .card__image-caption {
     -webkit-text-stroke: 1px var(--background-color);
     text-shadow: none;
@@ -186,6 +186,11 @@ main {
 
 .hue-rotate {
   filter: hue-rotate(180deg);
+}
+
+/* Множественный фильтр - комбинация нескольких эффектов */
+.multiple {
+  filter: grayscale(70%) sepia(40%) brightness(90%) contrast(120%) hue-rotate(90deg);
 }
 
 .button {
