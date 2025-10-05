@@ -102,7 +102,7 @@ main {
 }
 
 @supports (-webkit-text-stroke: 1px black) {
-  .card__image-caption {
+  .article__logo {
     -webkit-text-stroke: 1px var(--background-color);
     text-shadow: none;
   }
